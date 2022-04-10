@@ -14,7 +14,7 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="products">Products</Link>
-                <Link to="/oorders">Orders</Link>
+                <Link to="/orders">Orders</Link>
                 <Link to="/register">Register</Link>
                 <span>{user?.displayName && user.displayName}</span>
                 {
